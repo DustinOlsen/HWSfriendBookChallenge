@@ -13,6 +13,8 @@
 		BBB7E74625DD89D80093B47F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E73125DD89D60093B47F /* ContentView.swift */; };
 		BBB7E74725DD89D80093B47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB7E73225DD89D80093B47F /* Assets.xcassets */; };
 		BBB7E74825DD89D80093B47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB7E73225DD89D80093B47F /* Assets.xcassets */; };
+		BBB7E75425DD8A480093B47F /* userDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E75325DD8A480093B47F /* userDataHandler.swift */; };
+		BBB7E75525DD8A480093B47F /* userDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E75325DD8A480093B47F /* userDataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		BBB7E73F25DD89D80093B47F /* HWSfriendBookChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSfriendBookChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB7E74125DD89D80093B47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB7E74225DD89D80093B47F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BBB7E75325DD8A480093B47F /* userDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDataHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				BBB7E73025DD89D60093B47F /* HWSfriendBookChallengeApp.swift */,
 				BBB7E73125DD89D60093B47F /* ContentView.swift */,
+				BBB7E75325DD8A480093B47F /* userDataHandler.swift */,
 				BBB7E73225DD89D80093B47F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -189,6 +193,7 @@
 			files = (
 				BBB7E74525DD89D80093B47F /* ContentView.swift in Sources */,
 				BBB7E74325DD89D80093B47F /* HWSfriendBookChallengeApp.swift in Sources */,
+				BBB7E75425DD8A480093B47F /* userDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				BBB7E74625DD89D80093B47F /* ContentView.swift in Sources */,
 				BBB7E74425DD89D80093B47F /* HWSfriendBookChallengeApp.swift in Sources */,
+				BBB7E75525DD8A480093B47F /* userDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
