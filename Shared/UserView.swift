@@ -9,25 +9,31 @@ import SwiftUI
 
 struct UserView: View {
     
-    @ObservedObject var userData = UserData()
-    
-    
-    
-    
-    
+    var selected: SelectedUser
+
     var body: some View {
         
-        List(userData.userList, id: \.id) { user in
-            VStack {
-                Text(user.name)
-            }
-        }
+        Text(selected.name)
+        Text("\(selected.age)")
+        Text("Company: \(selected.company)")
         
     }
 }
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
-        UserView()
+        let user = SelectedUser(
+            id: "",
+            isActive: false,
+            name: "",
+            age: 0,
+            company: "",
+            email: "",
+            address: "",
+            about: "",
+            registered: "",
+            tags: [""],
+            friends: [Friends]())
+        UserView(selected: user)
     }
 }
