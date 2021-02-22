@@ -15,13 +15,10 @@
 		BBB7E74625DD89D80093B47F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E73125DD89D60093B47F /* ContentView.swift */; };
 		BBB7E74725DD89D80093B47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB7E73225DD89D80093B47F /* Assets.xcassets */; };
 		BBB7E74825DD89D80093B47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB7E73225DD89D80093B47F /* Assets.xcassets */; };
-		BBB7E75425DD8A480093B47F /* userDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E75325DD8A480093B47F /* userDataHandler.swift */; };
-		BBB7E75525DD8A480093B47F /* userDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7E75325DD8A480093B47F /* userDataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB59C20825E01CE4008AE8FE /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
-		BB59C20D25E023B9008AE8FE /* Testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Testing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BBB7E73025DD89D60093B47F /* HWSfriendBookChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSfriendBookChallengeApp.swift; sourceTree = "<group>"; };
 		BBB7E73125DD89D60093B47F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBB7E73225DD89D80093B47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,7 +27,6 @@
 		BBB7E73F25DD89D80093B47F /* HWSfriendBookChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSfriendBookChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB7E74125DD89D80093B47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB7E74225DD89D80093B47F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		BBB7E75325DD8A480093B47F /* userDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDataHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +62,7 @@
 			children = (
 				BBB7E73025DD89D60093B47F /* HWSfriendBookChallengeApp.swift */,
 				BBB7E73125DD89D60093B47F /* ContentView.swift */,
-				BB59C20D25E023B9008AE8FE /* Testing.playground */,
 				BB59C20825E01CE4008AE8FE /* UserView.swift */,
-				BBB7E75325DD8A480093B47F /* userDataHandler.swift */,
 				BBB7E73225DD89D80093B47F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -199,7 +193,6 @@
 			files = (
 				BBB7E74525DD89D80093B47F /* ContentView.swift in Sources */,
 				BBB7E74325DD89D80093B47F /* HWSfriendBookChallengeApp.swift in Sources */,
-				BBB7E75425DD8A480093B47F /* userDataHandler.swift in Sources */,
 				BB59C20925E01CE4008AE8FE /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +203,6 @@
 			files = (
 				BBB7E74625DD89D80093B47F /* ContentView.swift in Sources */,
 				BBB7E74425DD89D80093B47F /* HWSfriendBookChallengeApp.swift in Sources */,
-				BBB7E75525DD8A480093B47F /* userDataHandler.swift in Sources */,
 				BB59C20A25E01CE4008AE8FE /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

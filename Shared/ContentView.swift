@@ -134,26 +134,8 @@ struct ContentView: View {
                                 .foregroundColor(user.isActive ? .green : .black)
                     }
 
-                    Text("Age: \(user.age)")
                     Text("Company: \(user.company)")
                         .font(.subheadline)
-                    Text("Email: \(user.email)")
-                        .font(.subheadline)
-                    Text("Address: \(user.address)")
-                        .font(.subheadline)
-    //                Text(item.about)
-                    Text("Member since: \(user.registered)")
-                    HStack {
-                        ForEach(user.tags, id: \.self) { tag in
-                            Text("#\(tag)")
-                        }
-                    }
-                    VStack {
-                        ForEach(user.friends, id: \.self) { friend in
-                            Text("\(friend.name)")
-                        }
-                    }
-
                 }
             }
             .onAppear(perform: loadData)
